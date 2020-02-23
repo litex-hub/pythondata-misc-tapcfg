@@ -1,0 +1,2 @@
+graft litex/data/misc/tapcfg/data/
+global-exclude *.py[cod]
