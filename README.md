@@ -19,7 +19,7 @@ with open(os.path.join(litex.data.misc.tapcfg.location, my_data_file)) as f:
 
 The data files come from https://github.com/enjoy-digital/tapcfg
 and are imported using `git subtrees` to the directory
-[litex/data/misc/tapcfg/data](litex/data/misc/tapcfg/data].
+[litex/data/misc/tapcfg/data](litex/data/misc/tapcfg/data).
 
 
 
