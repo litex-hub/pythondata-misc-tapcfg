@@ -5,14 +5,24 @@ Non-Python data files required to use the tapcfg with
 
 The data files can be found under the Python module `litex.data.misc.tapcfg`. The
 `litex.data.misc.tapcfg.location` value can be used to find the files on the file system.
-For example;
 
+Example of getting the data file directly;
 ```python
 import litex.data.misc.tapcfg
 
 my_data_file = "abc.txt"
 
-with open(os.path.join(litex.data.misc.tapcfg.location, my_data_file)) as f:
+with open(os.path.join(litex.data.misc.tapcfg.data_location, my_data_file)) as f:
+    print(f.read())
+```
+
+Example of getting the data file using `litex.data.find` API;
+```python
+from litex.data.find import find_data
+
+my_data_file = "abc.txt"
+
+with open(os.path.join(find_data("misc", "tapcfg"), my_data_file)) as f:
     print(f.read())
 ```
 

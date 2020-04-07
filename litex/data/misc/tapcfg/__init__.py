@@ -4,11 +4,11 @@ data_location = os.path.join(__dir__, "data")
 src = "https://github.com/enjoy-digital/tapcfg"
 
 # Module version
-version_str = "0.0.post421"
-version_tuple = (0, 0, 421)
+version_str = "0.0.post422"
+version_tuple = (0, 0, 422)
 try:
     from packaging.version import Version as V
-    pversion = V("0.0.post421")
+    pversion = V("0.0.post422")
 except ImportError:
     pass
 
@@ -35,10 +35,10 @@ Date:   Wed May 1 12:11:43 2019 +0200
 """
 
 # Tool version info
-tool_version_str = "0.0.post46"
-tool_version_tuple = (0, 0, 46)
+tool_version_str = "0.0.post47"
+tool_version_tuple = (0, 0, 47)
 try:
     from packaging.version import Version as V
-    ptool_version = V("0.0.post46")
+    ptool_version = V("0.0.post47")
 except ImportError:
     pass
