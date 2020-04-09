@@ -7,7 +7,8 @@ This Useful for usage with tools like
 [LiteX](https://github.com/enjoy-digital/litex.git).
 
 The data files can be found under the Python module `pythondata_misc_tapcfg`. The
-`pythondata_misc_tapcfg.location` value can be used to find the files on the file system.
+`pythondata_misc_tapcfg.data_location` value can be used to find the files on the file
+system.
 
 Example of getting the data file directly;
 ```python
